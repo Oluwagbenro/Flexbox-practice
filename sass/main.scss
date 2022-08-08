@@ -1,0 +1,61 @@
+
+@import url(header.css);
+@import url(main-paragraph.css);
+@import url(Housing.css);
+@import url(SectionInterior.css);
+@import url(SectionUsers.css);
+@import url(footer.css);
+
+$color-white:#fff;
+$color-grey-light-2:#eee;
+
+*,
+*:before,
+*:after{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    max-width: 114rem;
+    margin: 0 auto;
+    font-family: "Lato", "san-serif";
+    background-color: $color-grey-light-2;
+    
+}
+
+@media only screen and (max-width:900px){
+    body{
+        margin: 0;
+        font-size: 56.25%;
+    }
+}
+@media only screen and (max-width:600px){
+    body{
+        font-size: 50%;
+    }
+}
+@media only screen and (min-width:1200px){
+    body{
+        font-size: 75%;
+    }
+}
+:root{
+    --color-white: #fff;
+    --color-grey-dark:#777;
+    --color-black:#000;
+
+    --color-grey-light-1:#f7f7f7;
+    --color-grey-light-2:#eee;
+
+    --color-grey-dark-1:rgba(226, 223, 223, 0.6);
+    --color-grey-dark-2:#999;
+    --color-grey-dark-3:#333;
+
+    --default-font-size:1.6rem;
+}
+

@@ -1,0 +1,14 @@
+{
+  "name": "realestateproject",
+  "version": "1.0.0",
+  "description": "real estate project",
+  "main": "package.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss RealEstateProject/Styles.css "
+  },
+  "author": "Gbenro",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
